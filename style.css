@@ -1,0 +1,32 @@
+
+body {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: dimgray;
+}
+
+button {
+    border: 3px blue solid;
+    height:150px;
+    width:150px;
+    background-color: darkseagreen;
+    border-radius: 15px;
+    margin:2px;
+    font-size:120px;
+}
+
+.new-game {
+    font-size:50px;
+}
+
+div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#winner {
+    font-size:30px;
+    color: rgba(255, 157, 9, 0.842);
+}
